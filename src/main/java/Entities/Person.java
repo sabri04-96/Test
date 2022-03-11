@@ -14,13 +14,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class User extends AbstractEntity {
+public class Person extends AbstractEntity {
 
 	@Column
 	private String nameString;
 
-	public User(int id, Date creationDate, Date updateDate, String nameString) {
-		super(id, creationDate, updateDate);
+	public Person(int id, Date creationDate, Date updateDate, String nameString) {
 		this.nameString = nameString;
 	}
 	

@@ -1,7 +1,7 @@
 package Entities;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.EntityListeners;
@@ -63,11 +63,6 @@ public class AbstractEntity implements Serializable {
 		return "AbstractEntity [id=" + id + ", creationDate=" + creationDate + ", updateDate=" + lastUpdateDate + "]";
 	}
 
-	public AbstractEntity(int id, Date creationDate, Date updateDate) {
-		super();
-		this.id = id;
-		this.creationDate = creationDate;
-		this.lastUpdateDate = updateDate;
-	}
+	
 
 }
