@@ -1,4 +1,4 @@
-package Entities;
+package com.projctend.pfe.Entities;
 
 import java.sql.Date;
 
